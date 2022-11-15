@@ -1,0 +1,68 @@
+* {
+    font-family: 'Courier New', monospace; /* Globally changing the font across the entire website */
+}
+
+a {                           /* This changes the color and font size of all links */
+    color : #025b96;
+    font-size: 14pt;
+    display: block;
+    padding: 8px;
+}
+
+div {
+    border: 30px solid #ccc;
+}
+
+h1 {
+    padding-left : 44%;
+    font-size: 30pt;
+    position : relative;
+}
+
+div h2{                    /* Makes the size of the h2 text in contact-us bigger */
+    font-size : 25pt;
+}
+
+label {                             /* Aligns the text boxes in contact-us to be uniform */
+    width: 50px;
+   display: inline-block;
+   text-align: right;
+   margin-right: 60px;
+}
+
+input[type=text], input[type=email], select {         /* From W3Schools ( Formatting Forms ) */
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+li {
+    display: inline;
+    float : left;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(151, 151, 151);
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color:rgb(120, 119, 119);
+  }
+
+header {
+    padding-right: 60px;
+}
