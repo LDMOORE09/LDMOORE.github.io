@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css\style.css">
+    <title>2 Hearts, One love</title>
+    <style>
+    input[type=text], select {   /* This section is giving form to the answer boxes on the contact-us page */
+      width: 30%;
+      padding: 12px 20px; 
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    } 
+
+    input[type=submit] {       /* This is changing the length, color, and pointer when interacting with the submit button */
+      width: 100%;
+      background-color: #0c8eca;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {    /* This section changes the color of the submit button when hovering */
+      background-color: #00ccff;
+    }
+
+    div {
+      border: 30px solid #ccc;
+    }
+
+  h1 {
+    padding-left : 44%;
+    font-size: 30pt;
+    position : relative;
+}
+
+  div h2{                    /* Makes the size of the h2 text in contact-us bigger */
+    font-size : 25pt;
+}
+
+  label {                             /* Aligns the text boxes in contact-us to be uniform */
+    width: 50px;
+   display: inline-block;
+   text-align: right;
+   margin-right: 60px; 
+  }
+  </style> <!-- Embedded css, taken from W3Schools-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <nav>
+      <a href="index.html"> <img alt="MainHeart" src="https://i.pinimg.com/originals/cd/06/76/cd06765198f586744074597e930c9dda.gif"
+          width="90" height="70"></a>
+      </nav>
+      <header>
+          <!-- Instance of inline css -->
+          <h1>TwoHearts</h1>
+      </header>
+  </body>
+  <nav>
+      <ul>
+          <li><a href="submissions.html" class="w3-bar-item w3-button w3-green">Submissions</a></li>
+          <li><a href="pictures.html">Pictures</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact-us.html">Contact</a></li>
+      </ul>
+  </nav> 
+
+<br>
+
+<br>
+
+    <body>
+      <div class="container" style="background-color:rgb(120, 119, 119);color:white;padding:20px;"> <!-- Inline CSS -->
+        <div style="text-align:center">
+          <h2>Contact Us !</h2>
+          <p>Leave us a message :</p>
+        </div>
+        <div class="row">
+          <div class="column" style="background-color:rgb(151, 151, 151);color:white;padding:20px;"> <!-- Inline CSS -->
+            <form action="/action_page.php">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" placeholder="Your email..." style="width:50%"> <br>
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?"> <br>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Write something.." style="height:140px"></textarea> <br> <!-- Inline CSS -->
+              <label for="destination">Destination:</label>
+        <select id="destination" name="destination">
+          <option value="TwoHearts">TwoHearts</option>
+          <option value="support">Support Team</option>
+        </select>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+
+<footer>
+    <p>TwoHearts Inc. 2022</p> 
+    <a style="margin-left:1800px" href="index.html"> <img alt="MainHeart2" src="http://78.media.tumblr.com/5d45665e4bac6acebe41d3c9950a541c/tumblr_p6s5uocZVP1qzm8dwo1_500.gif" width="90" height="70" padding-left="50"></a>
+  </footer>
+  
+  </body>
+  </html>
+  
+  
